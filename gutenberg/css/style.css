@@ -1,0 +1,70 @@
+body {
+     background-color: #F4F0DB;
+     background-image: url(feel-old-paper360023.jpg) repeat center center fixed !important;
+
+  <-- https://css-tricks.com/almanac/properties/b/background-image/ -->
+
+
+}
+html {
+    text-align: center;
+    border: 3px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border: outset gold 8px;
+}
+
+
+p {
+    font-family: "Verdana", cursive, serif;
+    font-size: 30px;
+}
+
+
+
+h1, h2, h3, h4, h5 {
+    font-family:"Comic Sans MS", serif;
+    font-style: bold, normal;
+    font-size: 50px;
+    color: #666561;
+    text-shadow: 2px 2px 5px black;
+    box-shadow: 10px 10px;
+
+}
+
+img  {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: outset #a37e0e 8px;
+    box-shadow: 10px 10px;
+}
+
+
+
+img:hover{
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+img zoom {
+    padding: 50px;
+    transition: transform .2s;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}

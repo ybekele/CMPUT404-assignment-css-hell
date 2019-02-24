@@ -1,3 +1,10 @@
+* {
+  text-align:center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
 body {
      background-color: #F4F0DB;
      background-image: url(feel-old-paper360023.jpg) repeat center center fixed !important;
@@ -16,7 +23,7 @@ html {
 
 
 p {
-    font-family: "Verdana", cursive, serif;
+    font-family: "Times New Romans", cursive, serif;
     font-size: 30px;
 }
 

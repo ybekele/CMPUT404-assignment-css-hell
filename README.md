@@ -19,6 +19,11 @@ Textual content is copyright Abram Hindle (C) 2013 under the CC-BY-SA
 4.0 unported license. Attribution should be a hyperlink to the
 repository and (C) 2013 Abram Hindle visibile in the text.
 
+
+Textual content, themes and additions to original fork by Abram Hindle is copyright Yonael Bekele (C) 2019 under the CC-BY-SA
+4.0 unported license. Attribution should be a hyperlink to the
+repository and (C) 2019 Yonael Bekele visibile in the text.
+
 Code is licensed under the Apache 2.0 license.
 
 
